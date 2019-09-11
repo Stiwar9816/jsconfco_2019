@@ -7,7 +7,7 @@ import { StaticQuery, graphql } from 'gatsby'
 // import SEO from './seo'
 // import Tuned from '../components/tuned'
 
-// import './layout.scss'
+import './layout.scss'
 
 const Layout = ({ children }) => (
   <StaticQuery
