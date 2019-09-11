@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-// import Header from './header'
+import Header from './header'
 // import Footer from './footer'
 // import SEO from './seo'
 // import Tuned from '../components/tuned'
@@ -23,7 +23,7 @@ const Layout = ({ children }) => (
     render={() => (
       <>
         {/* <SEO title="NodeConfCo" keywords={[`nodeconfco`, `colombia`]} /> */}
-        {/* <Header /> */}
+        <Header />
         <div>
           {children}
           </div>
