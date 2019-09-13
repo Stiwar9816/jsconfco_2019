@@ -1,23 +1,36 @@
-import React, { Component } from 'react'
 
+import React from 'react'
 
+import './header.scss'
 
-export default class Footer extends Component {
-  render() {
-    return (
+const Header = () => (
 
-      <div>
-        <div className="container">
-          <header className="row">
-            <h1 className="col s6  m12">Hola Materialize</h1>
-            <a className="waves-effect waves-light btn  col s6  m12">button</a>
-          </header>
-          <aside>
-            <p>lorem asndiuahsdp iajsidoasj oidaspidn aiosnd oaisn doiuansdo iansdoinasoid nasoidn oin oiasndoi asnoid aoisnd aisndoi ansod inasoidn asindoiandoi nassoid </p>
-          </aside>
+  <header className="header">
+
+    <div className="header-banner">
+      <img src="icons/banner-jsconfco-2018.jpg" alt="Logo JSConf colombia"/>
+    </div>
+
+    <div className="container">
+
+      <div className="row  content-information">
+
+        <div className="col  content-logo">
+          <img src="./icons/Logo-JSConco-2019.svg" alt="Logo JSConf colombia"/>
         </div>
-      </div>
-    )
-  }
-}
 
+        <p className="col  header-information">Bringing the Colombian JavaScript community under the roof.</p>
+
+      </div>
+
+      <div className="row  header-data">
+        <p className="col  header-data__description">October <span className="underline">18th</span> & <span className="underline">19th</span> <span className="underline">Medellín</span>, Colombia
+        </p>
+      </div>
+
+    </div>
+
+  </header>
+)
+
+export default Header

@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
-// import Footer from './footer'
+import Footer from '../components/footer'
 // import SEO from './seo'
-// import Tuned from '../components/tuned'
+import Tuned from '../components/section_tuned'
 
 import './layout.scss'
 
@@ -27,8 +27,8 @@ const Layout = ({ children }) => (
         <div>
           {children}
           </div>
-        {/* <Tuned /> */}
-        {/* <Footer /> */}
+        <Tuned />
+        <Footer />
       </>
     )}
   />
