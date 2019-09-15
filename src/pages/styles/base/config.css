@@ -19,3 +19,13 @@
   --gutter: 16px;
 
 }
+
+.inner-padding {
+  padding-top: calc(var(--gutter) * 4);
+  padding-bottom: calc(var(--gutter) * 4);
+}
+/* subrayado rojo <span> */
+.underline {
+  padding: 0 5px;
+  background-color: var(--thirdColor);
+}

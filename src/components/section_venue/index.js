@@ -9,7 +9,7 @@ export default class SectionVenue extends Component {
       <div className="section-venue__background">
         <h2>VENUE</h2>
         <p>
-          Strategic location, with easy access to all of <br /> the city's
+          Strategic location, with easy access to all of <br />the city's
           points of interest.
         </p>
         <div className="section-venue__hotels">
